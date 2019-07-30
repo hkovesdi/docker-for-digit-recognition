@@ -195,7 +195,7 @@ services:
 ### Python flask ################################################
     python-flask:
       build:
-        context: ./python-flask-docker-image
+        context: ./python-flask
         args:
           - APP_PATH=${PYTHON_FLASK_PATH}
           - CONTAINER_PATH=${PYTHON_FLASK_PATH_CONTAINER}
